@@ -4,38 +4,115 @@
   box-sizing: border-box;
 }
 html{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px
 }
 
-.container{
+.logo span{
+  color: #5f6368;
+  font-size: 22px;
+  
+}
+
+i{
+  color: #5f6368;
+  font-size: 20px;
+}
+
+header{
+  padding: 0 10px;
+  border-bottom: 1px solid lightgrey;
+  font-size: 16px;
+}
+
+.header-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.account-google{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.account-icon{
+  width: 32px;
+  aspect-ratio: 1/1;
+  background-color: orangered;
+  border-radius: 50%;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img{
+  width: 120px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.nav ul{
+  display: contents;
+  list-style-type: none;
+ }
+
+ .nav{
+  display: flex;
+ }
+
+ .nav ul li{
+  padding: 10px 20px;
+  padding-top: 0;
+ }
+
+ .nav a{
+   text-decoration: none;
+   color: #5f6368;
+   padding: 10px 0px;
+ }
+
+ a.active{
+    color: #3367d6;
+    border-bottom: 2px solid #3367d6;
+}
+ 
+
+/*MAIN*/
+main .container{
   max-width: 900px;
   margin: 0 auto;
 }
 
-h2{
+main h2{
   padding-top: 60px;
   color: #3c4043;
 }
-p{
+main p{
   padding-top: 20px;
   line-height: 20px;
   color: #000000DE;
 }
-a{
+main a{
   color: #3367d6;
   text-decoration: none;
 }
-ul{
+main ul{
   list-style-type: decimal;
   margin-left: 16px;
 }
-ul>li>ul{
+main ul>li>ul{
   list-style-type: lower-alpha;
 }
 
 
-li{
+main li{
   padding-top: 12px;
   padding-left: 16px;
   line-height: 20px;

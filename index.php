@@ -27,7 +27,7 @@
                     <ul><li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell\'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
                         <li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
                     </ul></li>
-                      <li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li>
+                      <li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li></ul>
                       <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p>
                   '
     ],
@@ -59,11 +59,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans&family=Roboto&family=Rubik:wght@300&display=swap" rel="stylesheet">
   <title>PHP-GOOGLE-FAQ</title>
 </head>
 <body>
   <header>
-
+      <div class="header-top">
+        <div class="logo">
+          <img src="img/logo.svg" alt="">
+          <span>Privacy e termini</span>
+        </div>
+        <div class="account-google">
+          <i class="fas fa-th"></i>
+          <div class="account-icon">M</div>
+        </div>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="">Introduzione</a></li>
+          <li><a href="">Norme sulla privacy</a></li>
+          <li><a href="">Termini di servizio</a></li>
+          <li><a href="">Tecnologie</a></li>
+          <li><a class="active" href="">Domande frequenti</a></li>
+        </ul>
+      </div>
   </header>
   <main>
     <div class="container">
