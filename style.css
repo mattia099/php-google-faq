@@ -3,8 +3,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px
+}
 
 .container{
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
+}
+
+h2{
+  padding-top: 60px;
+  color: #3c4043;
+}
+p{
+  padding-top: 20px;
+  line-height: 20px;
+  color: #000000DE;
+}
+a{
+  color: #3367d6;
+  text-decoration: none;
+}
+ul{
+  list-style-type: decimal;
+  margin-left: 16px;
+}
+ul>li>ul{
+  list-style-type: lower-alpha;
+}
+
+
+li{
+  padding-top: 12px;
+  padding-left: 16px;
+  line-height: 20px;
 }
